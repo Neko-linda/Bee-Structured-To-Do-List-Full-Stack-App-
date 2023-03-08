@@ -20,3 +20,23 @@ Stretch Goals
 I'd like to add a "Description" feature to the tasks so that the user can elaborate on what the task is meant to accomplish.
 I'd like to add an "Edit" feature for the user to edit any tasks that have mistakes (Such as spelling errors, accidental add, etc) so that instead of deleting and making a new task, they can edit one that is already established.
 I'd like to add "Categories". Tasks can be separated on different pages in different categories. (For example "Do The Dishes" Goes into the "Chores" category, and "Buy Broccoli" Goes into the "Groceries" category)
+
+My Wireframe: 
+
+Models including field names and their datatypes
+
+Model: User
+Task: String, Required
+Name: String, Required
+Username: String, Required
+Password: String, Required
+
+A list of routes (e.g. POST /pins/ allows users to post a picture of a pin) for all your routes
+
+GET /tasks - Retrieve all tasks
+GET /tasks/new - Display a form to create a new task
+POST /tasks - Create a new task
+GET /tasks/:id - Retrieve a single task by ID
+GET /tasks/:id/edit - Display a form to edit an existing task
+PUT /tasks/:id - Update an existing task
+DELETE /tasks/:id - Delete a task by ID
